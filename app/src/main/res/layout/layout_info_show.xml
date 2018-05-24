@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <LinearLayout android:orientation="vertical" android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/info_ad_blocked"
+                    style="@style/InfoNumber"
+                    android:textColor="@color/status_orange"
+                    android:text="0"/>
+
+                <TextView
+                    android:text="AD Blocked"
+                    style="@style/InfoTip"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical" android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/info_privacy_blocked"
+                    style="@style/InfoNumber"
+                    android:textColor="@color/status_red"
+                    android:text="0"/>
+
+                <TextView
+                    android:text="Track Blocked"
+                    style="@style/InfoTip"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</merge>
