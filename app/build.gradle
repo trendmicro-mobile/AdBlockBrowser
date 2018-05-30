@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
     defaultConfig {
-        applicationId "com.trendmicro.adblock.demo"
+        applicationId "com.trendmicro.browser"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
@@ -13,7 +13,7 @@ android {
 
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = [ targetPackage : 'com.trendmicro.adblock' , targetClassName : 'UrlCheckerBuildMap']
+                arguments = [ targetPackage : 'com.trendmicro.browser' , targetClassName : 'AppBuildMap']
             }
         }
 

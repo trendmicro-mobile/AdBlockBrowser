@@ -20,7 +20,7 @@ android {
 
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = [ targetPackage : 'com.trendmicro.browser' , targetClassName : 'AppBuildMap']
+                arguments = [ targetPackage : 'com.trendmicro.adblock' , targetClassName : 'UrlCheckerBuildMap']
             }
         }
 
